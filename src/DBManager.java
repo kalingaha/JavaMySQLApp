@@ -15,6 +15,7 @@ import org.springframework.jdbc.support.KeyHolder;
 public class DBManager {
 
 	private DriverManagerDataSource dataSource = null;
+/*
 	private static final DBManager dsManager = new DBManager();
 	static {
 		try {
@@ -25,6 +26,7 @@ public class DBManager {
 			System.out.println("Table Already Created");	
 		}
 	}
+*/
 
 	/*
 	 * Initialize MySql
