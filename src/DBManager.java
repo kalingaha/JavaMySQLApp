@@ -15,8 +15,9 @@ import org.springframework.jdbc.support.KeyHolder;
 public class DBManager {
 
 	private DriverManagerDataSource dataSource = null;
-/*
+
 	private static final DBManager dsManager = new DBManager();
+/*
 	static {
 		try {
 			createTable("create table user(name varchar(255), email varchar(255), description text)");
